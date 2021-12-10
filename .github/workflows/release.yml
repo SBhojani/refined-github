@@ -38,8 +38,8 @@ jobs:
       fail-fast: false
       matrix:
         command:
-#          - firefox
-#          - chrome
+        #  - firefox
+        #  - chrome
           - safari
     runs-on: ubuntu-latest
     steps:
